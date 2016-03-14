@@ -1,7 +1,14 @@
+.all-centered {
+	width: 100vh;
+	width: 100%;
+	margin: auto;
+}
+
 .navbar {
 	font-size: 16px;
 	margin-bottom: 0;
 	padding: 20px;
+	background-color: #ffffff;
 }
 
 .navbar-nav > li {
@@ -13,12 +20,13 @@
 	margin: 0 auto;
 }
 
-
 .vertical-center { /* Code from StackOverflow user Hashem Qolami at 
-	<http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap> */
+	<http://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap> 
+	currently not in use */
   min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 80vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
 }
+
