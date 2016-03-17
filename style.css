@@ -5,19 +5,24 @@
 }
 
 /* Custom navigation bar */ 
-
-ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 20px;
-	float: right;
 }
 
-li {
+nav li {
 	display: inline-block;
 	margin-right: 10px;
 	font-size: 1em;
-	
+}
+
+header ul, .footerRight {
+	float: right;
+}
+
+.footerLeft {
+	float: left;
 }
 
 /* Custom Login button */
@@ -58,4 +63,10 @@ li {
 	background-color: #3399ff;
 	color: white;
 	border: none;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+	margin-top: 140px;
 }
