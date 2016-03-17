@@ -4,6 +4,11 @@
 	margin: auto;
 }
 
+a, a:hover {
+	text-decoration: none;
+	color: black;
+}
+
 /* Custom navigation bar */ 
 nav ul {
 	list-style-type: none;
